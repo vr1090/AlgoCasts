@@ -11,9 +11,11 @@ function reverse(str) {
 
     for (x of str){
         rev = x + rev
+        debugger
     }
 
     return rev
 }
 
+reverse("anjing")
 module.exports = reverse;
